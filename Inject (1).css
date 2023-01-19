@@ -1,0 +1,334 @@
+header > #header {
+  padding: 0;
+}
+
+main > #content {
+  padding: 0;
+}
+
+footer > #footer {
+  padding: 0;
+}
+
+main > ul li {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.Header-max-width-standared {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.ktb-btn-border-c-gradient a {
+  font-weight: 700;
+  font-size: 16px;
+}
+.ktb-btn-border-gradient-bg-blue {
+  padding: 15px 4px;
+  border-radius: 9px;
+  background-color: #16223b;
+}
+.ktb-btn-border-gradient-size {
+  padding: 15px 30px;
+}
+.ktb-sustainability-landing-community
+  .ktb-sustainability-landing-community-card-date {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--gray-02);
+}
+
+.link-btn-swiper a {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--blue-03);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.download-file-component {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.img-icon {
+  width: 27px;
+  height: 27px;
+}
+
+.download-file-component .right a {
+  font-size: 15px;
+  color: var(--dark-01);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.recommend-bg-grey-color {
+  background-color: #c7c7c7;
+}
+
+.link-trans a {
+  color: transparent;
+}
+
+.product-list-decision-point p {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.product-list-decision-point h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.ktb-financial-plan {
+  background: #ecf7fb;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.ktb-financial-plan-form {
+  display: none;
+}
+
+.ktb-financial-plan-form.show {
+  display: block;
+}
+
+.financial-plan-result-header span {
+  font-weight: 800;
+  color: #0095c8;
+}
+
+.ktb-highlight-btn-blue a {
+  box-shadow: 0 0 0 2px var(--blue-02) inset;
+  background-color: var(--white);
+}
+
+.ktb-highlight-btn-blue a:hover {
+  background-color: var(--blue-02);
+  color: var(--white);
+}
+
+.ktb-financial-plan .dt {
+  text-align: right;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  color: #043d5d;
+  margin-top: 8px !important;
+}
+.ktb-financial-plan .dd {
+  text-align: left;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 18px;
+  line-height: 140%;
+  color: #043d5d;
+  margin-top: 8px !important;
+}
+.container-result {
+  position: absolute;
+}
+.suggession {
+  background-color: #043d5d;
+  box-shadow: 0px 4px 16px rgb(0 34 64 / 20%);
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ecf7fb;
+  text-align: center;
+}
+.suggession span {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 45px;
+}
+.section-sub-title-underline h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  color: #043d5d;
+}
+.section-sub-title-underline h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: #0095c8;
+  bottom: 0;
+  left: 0;
+}
+.marry-content {
+  margin-top: 54px;
+  margin-bottom: 100px;
+}
+.marry-advice {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #043d5d;
+  text-align: left !important;
+}
+.marry-advice span {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  color: #043d5d;
+}
+.marry-advice h4 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 32px;
+  color: #043d5d;
+}
+
+.ktb-condition-textcolor li {
+  color: #777777 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .link-btn-swiper a {
+    width: 120px;
+  }
+  .ktb-financial-plan {
+    padding: 40px;
+  }
+}
+
+.ktb-introduction {
+  padding: 0 !important;
+}
+
+/* Css Error */
+.ktb-calculator-result .ktb-calculator-result-row .data.data-error {
+  color: #ff0000;
+  width: 100%;
+  text-align: center;
+}
+.ktb-calculator-input.validate-error-input {
+  border: 1px solid #ff4444;
+}
+
+.validate-error {
+  display: none;
+  color: #ff4444;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+.validate-error.show {
+  display: block;
+}
+
+/* Css Table */
+.ktb-calculator-selecte-wrapper {
+  border-radius: 4px;
+}
+.ktb-calculator-selecte-wrapper.validate-error-input {
+  border: 1px solid #ff4444;
+}
+.ktb-table .table-header {
+  background-color: #043d5d;
+  color: #fff;
+  font-weight: 700;
+}
+.ktb-table .table-body {
+  border-right: 1px solid #043d5d;
+}
+
+/* Css Variant Single Cards */
+@media (min-width: 1400px) {
+  .col-lg-2_5 {
+    width: 19%;
+  }
+  .col-lg-5-half-offset {
+    margin-right: 0.4rem !important;
+    margin-left: 0.4rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-2_5 {
+    width: 18.86%;
+  }
+  .col-lg-5-half-offset {
+    margin-right: 0.4rem !important;
+    margin-left: 0.4rem !important;
+  }
+}
+
+.card-fp {
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 8px;
+  padding: 0;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.card-fp-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-fp-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px !important;
+  line-height: 140%;
+  font-weight: bold;
+  text-align: center;
+  color: #043d5d;
+}
+
+.ktb-fp-btn-blue {
+  border-radius: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 48px;
+}
+.ktb-table {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-fp-title {
+    font-size: 18px !important;
+  }
+  .card-fp-text {
+    font-size: 16px !important;
+  }
+  .card-fp {
+    margin: 0.5rem 0px !important;
+  }
+}
+caption,
+th,
+td {
+  text-align: center !important;
+}
+.ktb-table .clean-bottom-color {
+  border-bottom: none !important;
+}
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
