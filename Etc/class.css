@@ -52,3 +52,10 @@ tr.stk-col > td:first-child {
     position: sticky;
     left: 0px;
 }
+
+p.custom-th {
+    background-color: #c4c4c4;
+    border-bottom: 1px solid #999999;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
