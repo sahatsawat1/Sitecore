@@ -52,20 +52,13 @@ table.custom-m {
     border-collapse: collapse;
     max-width: 15.625rem;
 }
+
 /* sticky column */
 tr.stk-col > td:first-child {
     background-color: white;
     position: sticky;
     left: 0px;
     z-index: 2;
-}
-
-tr.stk-head > th:first-child {
-    background-color: white;
-    position: absolute;
-    left: 0px;
-    z-index: 2;
-    padding: 1.625rem 1rem;
 }
 
 /* heading content */
