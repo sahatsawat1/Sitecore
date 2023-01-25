@@ -67,10 +67,7 @@ tr.stk-head > th:first-child {
     z-index: 2;
     padding: 1.625rem 1rem;
 }
-th {
-    text-align: center !important;
-    font-weight: bold;
-}
+
 /* heading content */
 p.custom-th {
     background-color: #f0f3f6;
