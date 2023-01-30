@@ -1,6 +1,8 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="/Etc/class.css" />
+        <link rel="stylesheet" href="/Etc/main.css">
+        <link rel="stylesheet" href="/Etc/theme.css">
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,36 +12,43 @@
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous"
         />
-
+        
         <title>Document</title>
     </head>
     <body>
-        <div class="container" style="max-width: 50rem">
-            <div class="row text-center">
-                <div class="col-12">
-                    <p class="py-3 m-0 custom-th">
-                        <strong>Heading Test length</strong>
-                    </p>
-                </div>
-            </div>
+        <div class="container" style="max-width: 50rem;">
             <div class="table-size">
                 <div class="scroll-table">
                     <table class="custom-m">
                         <tbody class="text-start">
                             <tr>
-                                <td colspan="4">Column 1</td>
+                                <td class="ktb-table-head">ประเภทสินเชื่อ</td>
+                                <td class="ktb-table-head">
+                                    ระยะเวลาผ่อนชำระบ้าน
+                                </td>
+                                <td class="ktb-table-head">
+                                    อัตราดอกเบี้ยต่อปี
+                                </td>
+                                <td class="ktb-table-head">EIR*</td>
+                                <td class="ktb-table-head">EIR*</td>
+                                <td class="ktb-table-head">EIR*</td>
                             </tr>
                             <tr>
-                                <td>Data 1</td>
-                                <td>Data 1</td>
-                                <td>Data 1</td>
-                                <td>Data 1</td>
+                                <td rowspan="2" class="align-middle">
+                                    เงินกู้แบบกำหนดระยะเวลา<br>(Term Loan)
+                                </td>
+                                <td class="ktb-table-subhead" style="font-weight: 700;">น้อยกว่า 2 ปี</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">MRR</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">6.22%</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">6.22%</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">6.22%</td>
                             </tr>
                             <tr>
-                                <td>Data 2</td>
-                                <td>Data 2</td>
-                                <td>Data 2</td>
-                                <td>Data 2</td>
+                                <td class="ktb-table-subhead" style="font-weight: 700;">ตั้งแต่ 2 ปีขึ้นไป</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">MRR - 0.50%</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">5.72%</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">5.72%</td>
+                                <td class="ktb-table-subhead" style="color: #05a6e6; font-weight: 700;">5.72%</td>
                             </tr>
                         </tbody>
                     </table>
