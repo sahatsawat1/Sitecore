@@ -1,3 +1,42 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: blue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
 /* border tic-tac-toe class */
 .scroll-table {
     border-collapse: collapse;
@@ -14,6 +53,23 @@
 }
 .scroll-table tr td:last-child {
     border-right: 0 !important;
+}
+
+/* size of table */
+table.custom-m {
+    margin: none;
+    width: 100%;
+}
+.table-size {
+    display: block;
+    margin: auto;
+}
+
+.table-size td {
+    text-align: center;
+    padding: 1.625rem 1rem;
+    border-collapse: collapse;
+    max-width: 15.625rem;
 }
 
 /* scroll table */
@@ -35,23 +91,6 @@
     scrollbar-width: none;
 }
 
-/* size of table */
-table.custom-m {
-    margin: none;
-    width: 100%;
-}
-.table-size {
-    display: block;
-    margin: auto;
-}
-
-.table-size td {
-    text-align: center;
-    white-space: nowrap;
-    padding: 1.625rem 1rem;
-    border-collapse: collapse;
-    max-width: 15.625rem;
-}
 /* sticky column */
 tr.stk-col > td:first-child {
     background-color: white;
@@ -60,17 +99,6 @@ tr.stk-col > td:first-child {
     z-index: 2;
 }
 
-tr.stk-head > th:first-child {
-    background-color: white;
-    position: absolute;
-    left: 0px;
-    z-index: 2;
-    padding: 1.625rem 1rem;
-}
-th {
-    text-align: center !important;
-    font-weight: bold;
-}
 /* heading content */
 p.custom-th {
     background-color: #f0f3f6;
