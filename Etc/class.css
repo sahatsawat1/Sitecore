@@ -69,3 +69,11 @@
     font-family: Avenir;
     text-align: center;
 }
+
+
+ol {
+    word-wrap: break-word;
+}
+li {
+    font-size: 25px;
+}
